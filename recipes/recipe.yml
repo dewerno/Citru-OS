@@ -8,13 +8,12 @@ modules:
     repos:
       - copr:ilyaz/LACT
     install:
-      - lact            
-      - mangohud         
-      - goverlay         
-      - ksystemlog       
-      - abrt-desktop     
-      - lutris          
-
+      - lact
+      - mangohud
+      - goverlay
+      - ksystemlog
+      - lutris
+      
   - type: default-flatpaks
     notify: true
     system:
