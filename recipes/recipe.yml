@@ -11,7 +11,6 @@ modules:
       - https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-%OS_VERSION%.noarch.rpm
     install:
       - akmod-nvidia
-      - lact
       - mangohud
       - goverlay
 
@@ -31,3 +30,4 @@ modules:
         - org.gnome.FileRoller
       args:
         - --filesystem=home
+        - --filesystem=host
